@@ -8,11 +8,11 @@ class Students:
 
 obj = Students()
 obj.Name = "sandeep"  # dynamically
-print(obj.__dict__)
 obj.age = 20
+print(obj.__dict__)
 
-# print(obj.Name)
-# print(obj.age)
+print(obj.Name)
+print(obj.age)
 
 
 print(obj.__dict__)

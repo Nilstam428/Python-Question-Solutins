@@ -21,14 +21,17 @@ class Students:
 
 obj = Students()
 obj.age = 21
-print(obj.__dict__)
+obj.work = "Engineer"
+# print(obj.__dict__)
+print(obj.age)
 obj.info()
 print(obj.name)
+print(obj.work)
 
 
 # concept 2 (accessing methods and variables)
-# 1. method = ()
-# 2. variables = .variableName
+# 1. method = method_name()
+# 2. variables = .variable_name
 
 
 # 1. shortcut

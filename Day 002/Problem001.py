@@ -6,10 +6,16 @@
 
 
 def add(a,b):
-    return a + b
+    result = a + b 
+    return result
 
 print(add(7,9))
 
+global result
+def double(num):
+    return num*2
+
+print(double(add(7,9)))
 # concept 1
 # scope of variable
 # 1. global variable

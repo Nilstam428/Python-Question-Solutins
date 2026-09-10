@@ -1,5 +1,5 @@
 # Q how to add values in dictionary
-
+# use of update method
 dict1 = {"name": "jd"}
 print(dict1)
 

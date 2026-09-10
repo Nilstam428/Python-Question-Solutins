@@ -4,7 +4,16 @@
 # 3. form fileName import (variable , function)
 # 4. form fileName import (variable as v , function as f)
 # 5. form fileName import *
-from Problem import *
-even_odd(56)
+
+
+# import probelm1
+# import probelm1 as p
+from probelm1 import name, get_table
+# p.even_odd(56)
+# # print(name)``
+# p.get_table(22)
+
+
 print(name)
-table(22)
+print(get_table(23))
+get_table(23)

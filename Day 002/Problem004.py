@@ -1,13 +1,13 @@
 # Q write a function to check (number is prime or not)
 
-def checkPrime(number):
+def checkPrime(number: int):
     if number < 2:
         print("number is not a prime number")
     elif number == 2:
         print("2 is a prime number")
     elif number > 2:
         divisors = []
-        for i in range(2, number):
+        for i in range(2, int(number*0.5)+1):
             if number % i == 0:
                 divisors.append(i)
         if len(divisors)>0:

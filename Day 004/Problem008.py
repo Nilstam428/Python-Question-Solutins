@@ -2,12 +2,12 @@
 
 # there are two types of variables
 
-# 1. instance variable = variable which inside a constructor are instance variables
+# 1. instance variable (dynamic variable)= variable which inside a constructor are instance variables
 # 2. class variable (static variable) = variable which outside of a constructor
 
 
 class Students:
-    x = 10
+    x = 10 # static variable
     y = 20
     lang = "python"
 

@@ -16,11 +16,11 @@
 # print(id(name))
 
 # 👇 id will be same here
-# x = 10
-# print(id(x))
+x = 10
+print(id(x))
 
-# y = x
-# print(id(y))
+y = x
+print(id(y))
 
 
 class Students:

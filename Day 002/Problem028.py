@@ -10,5 +10,22 @@
 
 
 l1 = [1, 20, 30, 30, 20, 30, 40]
-print(l1.count(30))
+l1.append(50)
 print(l1)
+l1.insert(1, 10)
+print(l1)
+l1.remove(40)
+print(l1)
+# l1.clear()
+print(l1.count(30))
+l1.reverse()
+print(l1)
+
+l1.sort()
+print(l1)
+
+
+l1.pop()
+print(l1)
+
+print(l1[4:])

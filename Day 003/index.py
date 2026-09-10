@@ -3,11 +3,11 @@
 import my_math
 
 
- print(my_math.add(5, 6))
- print(my_math.subtract(5, 6))
+print(my_math.add(5, 6))
+print(my_math.subtract(5, 6))
 print(my_math.multiply(5, 6))
 print(my_math.divide(5, 6))
- print(my_math.name)
+print(my_math.name)
 
 
 # 1. import pythonfileName

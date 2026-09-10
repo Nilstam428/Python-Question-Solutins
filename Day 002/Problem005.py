@@ -5,19 +5,14 @@ def table(num):
         
 table(34)
 
-
-
-
-
-
 def table(*n):
     for j in n:
         for i in range(1, 11):
             print(f"{j} x {i} = {j*i}")
 
 
-table(12, 2, 9, 5)
-# # table(2)
+# table(12, 2, 9, 5)
+table(2, 27)
 
 
 # l1 = [10, 20, 30, 40, 50]

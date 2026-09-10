@@ -1,13 +1,13 @@
 # Q4. why "Type of class " include "__main__" ?
 
 
-# class Person:
-#     pass
+class Person:
+    pass
 
 
-# obj = Person()
+obj = Person()
 
-# print(type(obj))
+print(type(obj))
 
 
 import jd
@@ -17,10 +17,10 @@ obj.info()  # calling function info
 
 print(type(obj))
 
+# # 
+# class Person:
+#     pass
 
-class Person:
-    pass
 
-
-obj1 = Person()
-print(type(obj1))
+# obj1 = Person()
+# print(type(obj1))
