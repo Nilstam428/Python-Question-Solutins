@@ -9,6 +9,7 @@
 numbers = [1, 2, 3, 2, 3, 4, 5] 
 
 # use remove 
+# removes the first occurence
 numbers.remove(3) 
 print(numbers)
 
@@ -16,5 +17,6 @@ print(numbers)
 print(numbers)
 
 # use pop
+# removes the last occurence
 numbers.pop()
 print(numbers)

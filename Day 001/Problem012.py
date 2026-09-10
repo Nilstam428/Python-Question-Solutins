@@ -6,6 +6,7 @@ newtuple = mytuple + (new_element,)   # add as tuple with one element
 
 print("Original:", mytuple)
 print("New:", newtuple)
+print(type(new_element))
 
 
 # Remove duplicates

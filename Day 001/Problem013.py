@@ -1,16 +1,14 @@
 # Q tuple with first and last element
 from operator import itemgetter
 
-
-
 # element = int(input("Enter the number of elements you want to add: "))
-
-mylist = ['ram', 'shyam', 'nilesh', 'darshan', 'asok']
+mylist = ['ram', 'shyam', 'nilesh', 'darshan', 'ashok']
 # for i in range(element):
 #   mylist.append(input("Enter the element: "))
 
 mytuple = itemgetter(0, -1)(mylist)
-# mytuple = tuple(mylist[0] + mylist[-1])
+
+mytuple = (mylist[0],mylist[-1])
 
 print(mylist)  
 print(mytuple)
